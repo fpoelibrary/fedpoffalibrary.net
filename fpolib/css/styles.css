@@ -1,0 +1,259 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color:#22bb22;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/***** Navigation Bar*****/
+.navbar {
+	background-color: #22bb22;
+	border-radius: 0;
+	border: 0;
+	
+}
+.navbar ul {
+list-style-type: none;
+margin:0;
+padding:0;
+}
+
+.navbar li {
+display:inline-block;
+}
+
+.navbar li a {
+color: #FFFFFF;
+display: block;
+background-color: #FF3300; 
+padding: 10px 20px;
+text-decoration: none;
+}
+
+.navbar li a:hover {
+	color: #00ff00;
+}
+
+.navbar ul ul {
+position:absolute;
+top:100%;
+display: none;
+}
+
+.navbar ul ul li {
+display: block;
+}
+
+.navbar li:hover ul {
+display:block;
+}
+
+
+#logo-img {
+	background: url("../image/fpologo.png");
+	width: 320px;
+	height: 120px;
+	margin: 0px 0px 10px 0;
+	float:left;
+}
+
+/*** Button displays on Mobile only***/
+/* @media (min-width: 768px) {
+	button {
+		visibility: hidden;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	button {
+		visibility: visible;
+	}
+}
+/**** Logo invisible on Mobile*/
+@media (max-width: 767px) {
+	#logo-img {
+		visibility: hidden;
+		position: absolute;
+	}
+}
+
+
+
+
+/*.bi bi-android2 {
+	color: green;
+}
+*/
+
+
+
+/*a.nav-link:hover {
+	color: #00ff00;
+}
+
+/* END HEADER */
+/********** Large Devices only **********/
+@media (min-width: 1200px) {
+	.jumbotron {	
+	height: 100%;
+	/**box-shadow: 0 0 50px;
+	border: 2px solid #3f0c1f;**/
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+} 
+
+.jumbotron img {
+	height: 100%;
+	width: 100%;
+}
+
+
+.panel-footer {
+background-color:#FF3300;
+}
+
+
+/*#menu-tile, #special-tiles, #map-tile {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}*/
+
+.dept-icon div {
+color:#fff;
+}
+
+div span {
+color:#fff;
+}
+
+div .foundations-of-LIS span {
+color:#fff;
+}
+
+#menu-tile {
+	background: url("../images/Mainlogo3.png") no-repeat;
+	background-position: center;
+}
+
+#special-tiles {
+	background: url("../images/Mainlogo6.png") no-repeat;
+	background-position: center;
+}
+#menu-tile:hover, #special-tiles:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile span, #special-tiles span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.menu-item-photo {
+	margin-right: auto;
+}
+
+/***** MENU CATEGORIES PAGE *****/
+/*.category-tile {
+	position: relative;
+	border:	5px solid #3f0cif;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin:	 0 auto 15px;
+}*/
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .5;
+}
+
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+
+#address p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#testimonials {
+	font-style: italic;
+}
+
+
+/*** SINGLE CATEGORY PAGE ***/
+.menu-item-tile {
+	margin-bottom: 25px;
+	
+}
+
+.menu-item-tile Library Resources {
+	width: 80%;
+}
+
+.menu-item-tile.menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	
+}
+.menu-item-tile.menu-item-price span {
+	font-size: .6em;
+}
+.dept-icon {
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.dept-icon div {
+	
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	background-color: #557c3e;
+	text-align: center;
+}
+
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+}
+
+
+
