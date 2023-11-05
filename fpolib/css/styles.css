@@ -71,7 +71,7 @@ display:block;
 	}
 }
 /**** Logo invisible on Mobile*/
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 	#logo-img {
 		visibility: all;
 		position: relative;
