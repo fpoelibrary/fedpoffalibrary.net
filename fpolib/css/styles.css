@@ -117,6 +117,11 @@ display:block;
 background-color:#FF3300;
 }
 
+.panel-footer section #LibraryResources span a {
+	color: #fff;
+
+}
+
 
 /*#menu-tile, #special-tiles, #map-tile {
 	height: 200px;
@@ -152,18 +157,7 @@ color:#fff;
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-#menu-tile span, #special-tiles span, #map-tile span {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	text-align: center;
-	font-size: 1.6em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .8;
-}
+
 .menu-item-photo {
 	margin-right: auto;
 }
@@ -178,59 +172,9 @@ color:#fff;
 	margin:	 0 auto 15px;
 }*/
 
-.category-tile span {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	text-align: center;
-	font-size: 1.2em;
-	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .5;
-}
-
-.category-tile:hover {
-	box-shadow: 0 1px 5px 1px #cccccc;
-}
-#menu-categories-title + div {
-	margin-bottom: 50px;
-}
-
-#hours > span, #address > span {
-	font-size: 1.3em;
-}
-
-#address p {
-	color: #557c3e;
-	font-size: .8em;
-	line-height: 1.8;
-}
-
-#testimonials {
-	font-style: italic;
-}
 
 
-/*** SINGLE CATEGORY PAGE ***/
-.menu-item-tile {
-	margin-bottom: 25px;
-	
-}
 
-.menu-item-tile Library Resources {
-	width: 80%;
-}
-
-.menu-item-tile.menu-item-price {
-	font-size: 1.1em;
-	text-align: right;
-	
-}
-.menu-item-tile.menu-item-price span {
-	font-size: .6em;
-}
 .dept-icon {
 	padding: 0;
 	margin-right: -15px;
@@ -247,13 +191,7 @@ color:#fff;
 	text-align: center;
 }
 
-h3.menu-item-title {
-	margin: 0 0 10px;
-}
-.menu-item-details {
-	font-size: .9em;
-	font-style: italic;
-}
+
 
 
 
