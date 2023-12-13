@@ -57,20 +57,8 @@ display:block;
 	float:left;
 }
 
-/*** Button displays on Mobile only***/
-/* @media (min-width: 768px) {
-	button {
-		visibility: hidden;
-	}
-}
 
-
-@media (min-width: 1200px) {
-	button {
-		visibility: visible;
-	}
-}
-/**** Logo invisible on Mobile*/
+/**** Smart Phones only********/
 @media (min-width: 767px) {
 	#logo-img {
 		visibility: all;
@@ -79,20 +67,6 @@ display:block;
 }
 
 
-
-
-/*.bi bi-android2 {
-	color: green;
-}
-*/
-
-
-
-/*a.nav-link:hover {
-	color: #00ff00;
-}
-
-/* END HEADER */
 /********** Large Devices only **********/
 @media (min-width: 1200px) {
 	.jumbotron {	
@@ -123,19 +97,6 @@ background-color:#FF3300;
 }
 
 
-/*#menu-tile, #special-tiles, #map-tile {
-	height: 200px;
-	width: 100%;
-	margin-bottom: 15px;
-	position: relative;
-	border: 2px solid #3f0c1f;
-	overflow: hidden;
-}*/
-
-.dept-icon div {
-color:#fff;
-}
-
 div span {
 color:#fff;
 }
@@ -147,26 +108,9 @@ div .foundations-of-LIS span {
 color:#fff;
 }
 
-#menu-tile {
-	background: url("../images/Mainlogo3.png") no-repeat;
-	background-position: center;
-}
 
-#special-tiles {
-	background: url("../images/Mainlogo6.png") no-repeat;
-	background-position: center;
-}
-#menu-tile:hover, #special-tiles:hover, #map-tile:hover {
-	box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-
-.menu-item-photo {
-	margin-right: auto;
-}
-
-/***** MENU CATEGORIES PAGE *****/
-/*.category-tile {
+/***** E-BOOKS CATEGORIES PAGE *****/
+/*.e-books-tile {
 	position: relative;
 	border:	5px solid #3f0cif;
 	overflow: hidden;
@@ -186,12 +130,12 @@ color:#fff;
 	max-width: 250px;
 }
 .dept-icon div {
-	
 	bottom: 0;
 	right: 0;
 	width: 100px;
 	background-color: #557c3e;
 	text-align: center;
+	color: #fff;
 }
 
 
