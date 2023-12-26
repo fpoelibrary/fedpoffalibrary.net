@@ -7,9 +7,8 @@ body {
 
 /***** Navigation Bar*****/
 .navbar {
-	background-color: #22bb22;
 	border-radius: 0;
-	border: 0;
+	padding: 0;
 }
 
 .navbar ul {
@@ -36,12 +35,12 @@ text-decoration: none;
 	mix-blend-mode: hard-light;
 }
 
-.navbar ul ul {
+/*.navbar ul ul {
 position:absolute;
 top:100%;
 display: none;
 }
-
+*/
 .navbar ul ul li {
 display:block;
 }
@@ -138,20 +137,34 @@ display:block;
 	}
 }
 
+@media (max-width: 767px) {
+	.text {
+		font-size: 15px;
+		position: relative;
+		bottom: 40px;
+		left: -20px;
+	}
+}
 
+@media (max-width: 767px){
+	.navbar li {
+		display: inline-block;
+	}
+}
 /********** Large Devices only **********/
 @media (min-width: 1200px) {
 	.jumbotron {	
 	height: 100%;
+}
 	/**box-shadow: 0 0 50px;
 	border: 2px solid #3f0c1f;**/
 }
 
-.jumbotron {
+/*.jumbotron {
 	width: 100%;
 }
-
-} 
+*/
+ 
 
 .jumbotron img {
 	height: 100%;
@@ -163,23 +176,22 @@ display:block;
 background-color:#FF3300;
 }
 
-.panel-footer section #LibraryResources span a {
-	color: #fff;
-
+/*.panel-footer section #LibraryResources span a {
+	color: #f2f2f2;
 }
-
+*/
 
 div span {
-color:#fff;
+color:#f2f2f2;
 }
 
 .more-e-books {
 	
 }
-div .foundations-of-LIS span {
+/*div .foundations-of-LIS span {
 color:#fff;
 }
-
+*/
 
 /***** E-BOOKS CATEGORIES PAGE *****/
 /*.e-books-tile {
@@ -207,7 +219,7 @@ color:#fff;
 	width: 100px;
 	background-color: #557c3e;
 	text-align: center;
-	color: #fff;
+	color: #f2f2f2;
 }
 
 
