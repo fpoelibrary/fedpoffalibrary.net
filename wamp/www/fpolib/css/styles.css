@@ -1,0 +1,228 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color:#22bb22;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/***** Navigation Bar*****/
+.navbar {
+	border-radius: 0;
+	padding: 0;
+}
+
+.navbar ul {
+list-style-type: none;
+margin:0;
+padding:0;
+}
+
+.navbar li {
+display:table-cell;
+
+}
+
+.navbar li a {
+color: #FFFFFF;
+display: block;
+background-color: #FF3300; 
+padding: 10px 20px;
+text-decoration: none;
+}
+
+.navbar li a:hover {
+	color: #00ff00;
+	mix-blend-mode: hard-light;
+}
+
+/*.navbar ul ul {
+position:absolute;
+top:100%;
+display: none;
+}
+*/
+.navbar ul ul li {
+display:block;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.navbar li:hover ul {
+display:block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px;
+	z-index: 1;
+	height: auto;
+	max-height: 200px;
+	overflow-x: hidden;
+}
+
+#logo-img {
+	background: url("../image/fpolib.png");
+	width: 320px;
+	height: 120px;
+	margin: 0px 0px 10px 0;
+	float:left;
+}
+
+.myslides {
+	display: none;
+}
+
+/*img {
+	vertical-align: middle;
+}
+*/
+
+.text {
+	color: #f2f2f2;
+	font-size: 30px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	margin-left: -20px; 
+	
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active {
+	background-color: #717171;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 2.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/*@media (min-width: 767px) {
+	.text {font-size: 11px}
+}
+*/
+/**** Smart Phones only********/
+@media (min-width: 767px) {
+	#logo-img {
+		visibility: all;
+		position: relative;
+	}
+}
+
+@media (max-width: 767px) {
+	.text {
+		font-size: 15px;
+		position: relative;
+		bottom: 40px;
+		left: -20px;
+	}
+}
+
+@media (max-width: 767px){
+	.navbar li {
+		display: inline-block;
+	}
+}
+/********** Large Devices only **********/
+@media (min-width: 1200px) {
+	.jumbotron {	
+	height: 100%;
+}
+	/**box-shadow: 0 0 50px;
+	border: 2px solid #3f0c1f;**/
+}
+
+/*.jumbotron {
+	width: 100%;
+}
+*/
+ 
+
+.jumbotron img {
+	height: 100%;
+	width: 100%;
+}
+
+
+.panel-footer {
+background-color:#FF3300;
+}
+
+/*.panel-footer section #LibraryResources span a {
+	color: #f2f2f2;
+}
+*/
+
+div span {
+color:#f2f2f2;
+}
+
+.more-e-books {
+	
+}
+/*div .foundations-of-LIS span {
+color:#fff;
+}
+*/
+
+/***** E-BOOKS CATEGORIES PAGE *****/
+/*.e-books-tile {
+	position: relative;
+	border:	5px solid #3f0cif;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin:	 0 auto 15px;
+}*/
+
+
+
+
+.dept-icon {
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.dept-icon div {
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	background-color: #557c3e;
+	text-align: center;
+	color: #f2f2f2;
+}
+
+
+
+
+
