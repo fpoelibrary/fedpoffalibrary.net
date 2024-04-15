@@ -185,8 +185,16 @@ div span {
 color:#f2f2f2;
 }
 
+.previous-e-books {
+	position: relative;
+	left: -657px;
+	bottom: -50px;
+	color: #FFF;
+}
 .more-e-books {
-	
+	position: relative;
+	right: 10px;
+	bottom: 0px;
 }
 /*div .foundations-of-LIS span {
 color:#fff;
