@@ -82,16 +82,25 @@ display:block;
 }
 */
 
-.text {
-	color: #f2f2f2;
+.mytext {
+	color: #a9a9a9;
 	font-size: 30px;
 	padding: 8px 12px;
 	position: absolute;
-	bottom: -100px;
+	bottom: -200px;
 	width: 100%;
 	text-align: center;
 }
 
+.text {
+	color: #a9a9a9;
+	font-size: 30px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
 .numbertext {
 	color: #f2f2f2;
 	font-size: 12px;
