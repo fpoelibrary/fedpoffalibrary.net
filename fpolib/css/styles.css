@@ -146,15 +146,48 @@ display:block;
 	}
 }
 
+@media (min-width: 767px) {
+	.previous-e-books {
+	text-align: left;
+	margin-left: -660px;
+	margin-bottom: -30px;
+
+	}
+}
+
+@media (min-width: 767px) {
+	.more-e-books {
+	text-align: left;
+	margin-left: 50px;
+	}
+}
+
 @media (max-width: 767px){
 	.navbar li {
 		display: inline-block;
 	}
 }
+
 /********** Large Devices only **********/
 @media (min-width: 1200px) {
 	.jumbotron {	
 	height: 100%;
+}
+
+@media (max-width: 1200px) {
+	.previous-e-books {
+	text-align: left;
+	margin-left: -660px;
+	margin-bottom: -30px;
+	
+	}
+}
+
+@media (max-width: 1200px) {
+	.more-e-books {
+	text-align: left;
+	margin-left: 50px;
+	}
 }
 	/**box-shadow: 0 0 50px;
 	border: 2px solid #3f0c1f;**/
@@ -185,17 +218,8 @@ div span {
 color:#f2f2f2;
 }
 
-.previous-e-books {
-	position: relative;
-	left: -657px;
-	bottom: -50px;
-	color: #FFF;
-}
-.more-e-books {
-	position: relative;
-	right: 10px;
-	bottom: 0px;
-}
+
+
 /*div .foundations-of-LIS span {
 color:#fff;
 }
