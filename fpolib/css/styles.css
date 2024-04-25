@@ -82,25 +82,8 @@ display:block;
 }
 */
 
-.mytext {
-	color: #a9a9a9;
-	font-size: 30px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: -200px;
-	width: 100%;
-	text-align: center;
-}
 
-.text {
-	color: #a9a9a9;
-	font-size: 30px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
+
 .numbertext {
 	color: #f2f2f2;
 	font-size: 12px;
@@ -146,14 +129,36 @@ display:block;
 	}
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
+	.text {
+		color: #f2f2f2;
+		font-size: 30px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+}
+@media (min-width: 767px) {
+	.mytext {
+		color: #a9a9a9;
+		font-size: 30px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: -200px;
+		width: 100%;
+		text-align: center;
+	}
+}
+/*@media (max-width: 767px) {
 	.text {
 		font-size: 15px;
 		position: relative;
 		bottom: 40px;
 		left: -20px;
 	}
-}
+}*/
 
 @media (min-width: 767px) {
 	.previous-e-books {
@@ -181,6 +186,30 @@ display:block;
 @media (min-width: 1200px) {
 	.jumbotron {	
 	height: 100%;
+}
+
+@media (max-width: 1200) {
+	.text {
+		color: #f2f2f2;
+		font-size: 30px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1200) {
+	.mytext {
+		color: #a9a9a9;
+		font-size: 30px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: -200px;
+		width: 100%;
+		text-align: center;
+	}
 }
 
 @media (max-width: 1200px) {
